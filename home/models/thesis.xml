@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<input name="thetopic" type="notnull"  msg="/论文题目/……不能为空！" />
+	<!-- <input name="thetopic" type="unique" action="add" msg="论文已经存在！" />-->
+    <input name="thetype" type="notnull"  msg="/论文类型/……不能为空！" />
+	<!-- <input name="email" type="notnull" msg="用户邮箱不能为空！" /> -->
+	<!-- <input name="email" type="email" msg="用户邮箱不是email格式！" /> -->
+    <input name="pubname" type="notnull" msg="/出版物、出版社名称/……不能为空！" /> 
+    <input name="pubdetail" type="notnull" msg="/出版物信息/……不能为空！" /> 
+    <input name="pubcode" type="notnull" msg="/出版物编码/……不能为空！" />
+    
+    <input name="dept" type="notnull" msg="/部门名称/……不能为空！" /> 
+    <input name="keyword" type="notnull" msg="/关键词/……不能为空！" /> 
+    <input name="prjnum" type="notnull" msg="/关联项目编号/……不能为空！" />
+    <input name="prjtopic" type="notnull" msg="/关联项目名称/……不能为空！" />  
+    
+</form>	

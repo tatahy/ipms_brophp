@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+	<input name="pattopic" type="notnull"  msg="/专利题目/     不能为空！" />
+	<!-- <input name="pattopic" type="unique" action="add" msg="专利已经存在！" />-->
+    <input name="pattype" type="notnull"  msg="/专利类型/    不能为空！" />
+    <input name="owner" type="notnull" msg="/专利所有人/    不能为空！" />
+	<!-- <input name="email" type="notnull" msg="用户邮箱不能为空！" /> -->
+	<!-- <input name="email" type="email" msg="用户邮箱不是email格式！" /> -->
+    <input name="dept" type="notnull" msg="/部门名称/     不能为空！" /> 
+    <input name="keyword" type="notnull" msg="/关键字/     不能为空！" /> 
+    <input name="applyplace" type="notnull" msg="/申请地/     不能为空！" /> 
+    <input name="prjnum" type="notnull" msg="/关联项目编号/ 不能为空！" />
+    <input name="prjtopic" type="notnull" msg="/关联项目名称/ 不能为空！" />  
+    
+</form>	
