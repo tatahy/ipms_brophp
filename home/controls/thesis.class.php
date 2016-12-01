@@ -776,12 +776,12 @@
             
             if(isset($_POST["sub"])){
                 //判断上传文件的目录是否存在，不存在就创建
-                $dirname=PROJECT_PATH.'file/thesis/'.$the_id.'/'.$gid;
+                $dirname=PROJECT_PATH.'upfile/thesis/'.$the_id.'/'.$gid;
                 if($dir_handle=@opendir($dirname)){
                     closedir($dir_handle);
-                    $file_dir=PROJECT_PATH.'file/thesis/'.$the_id.'/'.$gid;
+                    $file_dir=PROJECT_PATH.'upfile/thesis/'.$the_id.'/'.$gid;
                 }else{
-                    $file_dir1=PROJECT_PATH.'file/thesis/'.$the_id;
+                    $file_dir1=PROJECT_PATH.'upfile/thesis/'.$the_id;
                     mkdir($file_dir1);
                 
                     $file_dir=$file_dir1.'/'.$gid;
