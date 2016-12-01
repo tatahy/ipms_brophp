@@ -500,13 +500,13 @@
                 $pat_id = $_POST['pat_id'];
                
                //判断上传文件的目录是否存在，不存在就创建
-                $dirname=PROJECT_PATH.'file/patent/'.$pat_id.'/'.$gid;
+                $dirname=PROJECT_PATH.'upfile/patent/'.$pat_id.'/'.$gid;
                 if($dir_handle=@opendir($dirname)){
                     //p("dir_handle",$dir_handle);
                     closedir($dir_handle);
-                    $file_dir=PROJECT_PATH.'file/patent/'.$pat_id.'/'.$gid;
+                    $file_dir=PROJECT_PATH.'upfile/patent/'.$pat_id.'/'.$gid;
                 }else{
-                    $file_dir1=PROJECT_PATH.'file/patent/'.$pat_id;
+                    $file_dir1=PROJECT_PATH.'upfile/patent/'.$pat_id;
                     mkdir($file_dir1);
                 
                     $file_dir=$file_dir1.'/'.$gid;
